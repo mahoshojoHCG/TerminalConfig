@@ -199,7 +199,8 @@
         ],
         "requestedTheme" : "system",
         "showTabsInTitlebar" : true,
-        "showTerminalTitleInTitlebar" : true
+        "showTerminalTitleInTitlebar" : true,
+        "wordDelimiters" : " ./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}~?\u2502"
     },
     "profiles" : 
     [
@@ -219,7 +220,8 @@
             "padding" : "0, 0, 0, 0",
             "snapOnInput" : true,
             "startingDirectory" : "%USERPROFILE%",
-            "useAcrylic" : true
+            "useAcrylic" : true,
+            "tabTitle" : "PowerShell"
         },
         {
             "acrylicOpacity" : 0.75,
@@ -237,7 +239,8 @@
             "padding" : "0, 0, 0, 0",
             "snapOnInput" : true,
             "startingDirectory" : "%USERPROFILE%",
-            "useAcrylic" : true
+            "useAcrylic" : true,
+            "tabTitle" : "PowerShell Core"
         },
         {
             "acrylicOpacity" : 0.85000002384185791,
